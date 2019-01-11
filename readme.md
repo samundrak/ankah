@@ -20,6 +20,10 @@ console.log(ankah.toAngreji('१०२३४५६७.८९')); // 10234567.89
 console.log(ankah.toAnkah(1023456789.9)); // १०२३४५६७८९.९
 
 // compare nepali numbers
+ const num11 = '११';
+ const num10 = '१०';
+ const num9 = '९';
+
 console.log(ankah.compareAnkah(num11, num10).isGreaterThan()); // true
 console.log(ankah.compareAnkah(num10, num10).isEqual()); // true;
 console.log(ankah.compareAnkah(num9, num10).isLessThan()); // true
