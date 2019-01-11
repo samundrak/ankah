@@ -1,2 +1,2 @@
-const Ankah = require('./Ankah');
-module.exports = Ankah;
+const ankah = require('./ankah');
+module.exports = ankah;

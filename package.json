@@ -1,15 +1,18 @@
 {
   "name": "ankah",
   "version": "1.0.0",
-  "description": "",
+  "description": "Convert your nepal number to english or from english to nepali, also can be used with devanagari script. Ankah can convert devnagari numbers to english.",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest index.test.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "jest": "^23.6.0"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.24.1"
   }
 }
